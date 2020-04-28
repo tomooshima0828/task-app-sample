@@ -51,20 +51,36 @@ p {
 }
 
 /* ヘッダー */
+.navbar {
+  background-color: teal;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #C0C0C0;
+    font-weight: bold;
+}
+
+
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  font-style: italic;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #C0C0C0;
   text-decoration: none;
 }
 
