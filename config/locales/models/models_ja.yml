@@ -14,3 +14,8 @@ ja:
           password_confirmation: パスワード再入力
           created_at: 作成日
           updated_at: 更新日
+        task:
+          name: 名称
+          note: 詳細
+          created_at: 作成日
+          updated_at: 更新日

@@ -50,9 +50,69 @@ p {
   line-height: 1.7em;
 }
 
+/* 以下変更 */
+.jumbotron {
+  background-color: #fff;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+#top-main-title {
+    font-style: italic;
+    font-weight: bold;
+}
+.center h1 {
+    margin-bottom: 10px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+
+
+
 /* ヘッダー */
 .navbar {
-  background-color: teal;
+  background-color: navy;
   color: #fff;
 }
 
@@ -66,6 +126,20 @@ p {
     font-weight: bold;
 }
 
+
+li .dropdown-header {
+    background-color: rgba(200,200,200,0.5);
+    font-weight: bold;
+}
+
+.dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #777777;
+    white-space: nowrap;
+}
 
 
 #logo {
@@ -83,6 +157,15 @@ p {
   color: #C0C0C0;
   text-decoration: none;
 }
+
+/* B6 */
+a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: transparent;
+}
+
+
+
+
 
 /* デバッグウインドウ */
 

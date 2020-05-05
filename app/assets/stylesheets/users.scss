@@ -1,9 +1,18 @@
 /* ユーザー情報テーブル */
 
-.user-table {
+.user-table th {
   vertical-align: middle;
   text-align: center;
 }
+
+.user-table td {
+  vertical-align: middle;
+  text-align: left;
+}
+
+
+
+
 
 /* 入力フォーム */
 
@@ -28,3 +37,4 @@
     vertical-align: middle;
   }
 }
+

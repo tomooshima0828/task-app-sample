@@ -1,2 +1,11 @@
-<h1>Tasks#new</h1>
-<p>Find me in app/views/tasks/new.html.erb</p>
+<% provide(:title, 'New Task') %>
+<% provide(:class_text, 'form') %>
+<% provide(:button_text, '新規作成') %>
+
+<h1>タスク新規作成</h1>
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <%= render 'form' %>
+    </div>
+</div>
