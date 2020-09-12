@@ -112,7 +112,7 @@ p {
 
 /* ヘッダー */
 .navbar {
-  background-color: navy;
+  background-color: #navy;
   color: #fff;
 }
 
@@ -163,6 +163,15 @@ a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   background-color: transparent;
 }
 
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: transparent;
+}
+
+th {
+  text-align: center;
+}
 
 
 
